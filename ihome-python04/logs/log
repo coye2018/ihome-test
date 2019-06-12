@@ -1,0 +1,712 @@
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:13 error info
+WARNING demo.py:14 warn info
+INFO demo.py:15 info info
+DEBUG demo.py:16 debug info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:13 error info
+WARNING demo.py:14 warn info
+INFO demo.py:15 info info
+DEBUG demo.py:16 debug info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:13 error info
+WARNING demo.py:14 warn info
+INFO demo.py:15 info info
+DEBUG demo.py:16 debug info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR demo.py:13 error info
+WARNING demo.py:14 warn info
+INFO demo.py:15 info info
+DEBUG demo.py:16 debug info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:177 '<=' not supported between instances of 'str' and 'int'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:184 '<=' not supported between instances of 'str' and 'int'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:184 'REST' object has no attribute 'send_template_sms'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:219 'dict' object has no attribute 'Code'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR verify_code.py:219 'dict' object has no attribute 'Code'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR client.py:371 HttpError occurred. Host:dysmsapi.aliyuncs.com SDK-Version:2.13.4 ClientException:SDK.HttpError HTTPSConnectionPool(host='dysmsapi.aliyuncs.com', port=443): Read timed out. (read timeout=5)
+ERROR verify_code.py:231 SDK.HttpError HTTPSConnectionPool(host='dysmsapi.aliyuncs.com', port=443): Read timed out. (read timeout=5)
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR passport.py:83 maximum recursion depth exceeded in comparison
+WARNING _internal.py:88  * Debugger is active!
+ERROR passport.py:83 maximum recursion depth exceeded in comparison
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:75 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:75 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:75 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:75 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:75 filter() got an unexpected keyword argument 'id'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:76 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:76 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+ERROR profile.py:76 (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:31 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+INFO houses.py:31 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:33 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:33 hit redis area_info
+INFO houses.py:33 hit redis area_info
+INFO houses.py:33 hit redis area_info
+INFO houses.py:33 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:33 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:33 hit redis area_info
+INFO houses.py:33 hit redis area_info
+INFO houses.py:33 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+INFO houses.py:280 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:380 'House' object has no attribute 'user'
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:363 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:391 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:408 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:409 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:410 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:395 hit house info redis
+ERROR houses.py:412 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:412 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:413 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:413 filter() got an unexpected keyword argument 'house_id'
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:393 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR houses.py:414 'Table' object has no attribute 'query'
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:395 hit house info redis
+INFO houses.py:395 hit house info redis
+INFO houses.py:395 hit house info redis
+INFO houses.py:395 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:281 hit house index info redis
+INFO houses.py:394 hit house info redis
+INFO houses.py:394 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+INFO houses.py:35 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:35 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:35 hit redis area_info
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:35 hit redis area_info
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+ERROR orders.py:39 strptime() takes exactly 2 arguments (1 given)
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+ERROR orders.py:133 filter_by() takes 1 positional argument but 2 were given
+ERROR orders.py:133 filter_by() takes 1 positional argument but 2 were given
+WARNING _internal.py:88  * Debugger is active!
+ERROR orders.py:135 filter_by() takes 1 positional argument but 2 were given
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+WARNING _internal.py:88  * Debugger is active!
+INFO houses.py:283 hit house index info redis
+INFO houses.py:35 hit redis area_info
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:283 hit house index info redis
+INFO houses.py:396 hit house info redis
+INFO houses.py:396 hit house info redis

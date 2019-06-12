@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>爱家-房源</title>
+    <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/reset.css" rel="stylesheet">
+    <link href="/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="/static/css/ihome/main.css" rel="stylesheet">
+    <link href="/static/css/ihome/search.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+        <div class="nav-bar">
+            <h3 class="page-title">房 源</h3>
+            <a class="nav-btn fl" href="/"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
+        </div>
+        <ul class="filter-title-bar">
+            <li class="filter-title">
+                <span>入住日期</span>
+                <span><i class="fa fa-angle-down"></i></span>
+                <span class="split-line fr">|</span>
+            </li>
+            <li class="filter-title">
+                <span>位置区域</span>
+                <span><i class="fa fa-angle-down"></i></span>
+                <span class="split-line fr">|</span>
+            </li>
+            <li class="filter-title">
+                <span>最新上线</span>
+                <span><i class="fa fa-angle-down"></i></span>
+            </li>
+        </ul>
+
+        <div class="filter-item-bar">
+             <!--这里是时间 -->
+            <div class="filter-item filter-date">
+                <div class="input-daterange input-group">
+                    <input type="text" class="input-sm form-control" id="start-date"/>
+                    <span class="input-group-addon">至</span>
+                    <input type="text" class="input-sm form-control" id="end-date"/>
+                </div>
+            </div>
+            <ul class="filter-item filter-area">
+                <!--<li area-id="1">东城区</li>
+                <li area-id="2">西城区</li>
+                <li area-id="3">朝阳区</li>
+                <li area-id="4">海淀区</li>
+                <li area-id="5">昌平区</li>
+                <li area-id="6">丰台区</li>
+                <li area-id="7">房山区</li>
+                <li area-id="8">通州区</li>
+                <li area-id="9">顺义区</li>
+                <li area-id="10">大兴区</li>
+                <li area-id="11">怀柔区</li>
+                <li area-id="12">平谷区</li>
+                <li area-id="13">密云区</li>
+                <li area-id="14">延庆区</li>
+                <li area-id="15">石景山区</li>
+                <li area-id="16">门头沟区</li>-->
+            </ul>
+            <ul class="filter-item filter-sort">
+                <li class="active" sort-key="new">最新上线</li>
+                <li sort-key="booking">入住最多</li>
+                <li sort-key="price-inc">价格 低-高</li>
+                <li sort-key="price-des">价格 高-低</li>
+            </ul>
+        </div>
+    </div>
+    <div class="display-mask"></div>
+    <ul class="house-list">
+        <!--
+        <li class="house-item">
+            <a href="/detail.html?id=1"><img src="/static/images/home01.jpg"></a>
+            <div class="house-desc">
+                <div class="landlord-pic"><img src="/static/images/landlord01.jgp"></div>
+                <div class="house-price">￥<span>200</span>/晚</div>
+                <div class="house-intro">
+                    <span class="house-title">房屋标题1</span>
+                    <em>出租6间 - 1次入住 - 中关村软件园</em>
+                </div>
+            </div>
+        </li>
+        <li class="house-item">
+            <a href="/detail.html?id=1"><img src="/static/images/home01.jpg"></a>
+            <div class="house-desc">
+                <div class="landlord-pic"><img src="/static/images/landlord01.jgp"></div>
+                <div class="house-price">￥<span>200</span>/晚</div>
+                <div class="house-intro">
+                    <span class="house-title">房屋标题1</span>
+                    <em>出租6间 - 1次入住 - 中关村软件园</em>
+                </div>
+            </div>
+        </li>
+        <li class="house-item">
+            <a href="/detail.html?id=1"><img src="/static/images/home01.jpg"></a>
+            <div class="house-desc">
+                <div class="landlord-pic"><img src="/static/images/landlord01.jgp"></div>
+                <div class="house-price">￥<span>200</span>/晚</div>
+                <div class="house-intro">
+                    <span class="house-title">房屋标题1</span>
+                    <em>出租6间 - 1次入住 - 中关村软件园</em>
+                </div>
+            </div>
+        </li>-->
+    </ul>
+    <div class="tishi" style="text-align: center;font-size: 18px;color: gray;display: none">已经是最后一页了</div>
+    <div class="footer">
+        <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+    </div>
+</div>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+<script src="/static/js/template.js"></script>
+<!--<script src="/static/js/ihome/search.js"></script>-->
+</body>
+</html>
+
+
+<script type="text/html" id="item-area">
+    {{ each areas as area}}
+    {{ if areaId ==area.aid}}
+    <li area-id="{{ area.aid }}" class="active">{{ area.aname }}</li>
+    {{ else }}
+    <li area-id="{{ area.aid }}">{{ area.aname }}</li>
+    {{ /if }}
+
+    {{/each }}
+</script >
+
+<!-- room_count房间个数  order_count 订单次数 -->
+<script type="text/html" id="item-houseInfo">
+{{ each data as item }}
+<li class="house-item">
+    <a href="/detail.html?id={{ item.house_id }}"><img src="{{ item.img_url }}"></a>
+    <div class="house-desc">
+        <div class="landlord-pic"><img src="{{ item.user_avatar }}"></div>
+        <div class="house-price">￥<span>{{ item.price/100.0 }}</span>/晚</div>
+        <div class="house-intro">
+            <span class="house-title">{{ item.title }}</span>
+            <em>出租{{ item.room_count }}间 - {{ item.order_count }}次入住 - {{ item.address }}</em>
+        </div>
+    </div>
+</li>
+{{ /each }}
+</script>
+<script>
+    var cur_page = 1; //当前页
+    var next_page = 1; //下一页
+    var total_page = 1;  //总页数
+    var house_data_querying = true;  //是否正在向后台获取数据
+
+    //解析url中的查询字符串
+    function decodeQuery() {
+        var search = decodeURI(document.location.search);
+        return search.replace(/(^\?)/, '').split('&').reduce(function (result, item) {
+            values = item.split('=');
+            result[values[0]] = values[1];
+            return result;
+        }, {});
+    }
+
+    //更新用户点选的筛选条件
+    function updateFilterDateDisplay() {
+        var startDate = $("#start-date").val();
+        var endDate = $("#end-date").val();
+        var $filterDateTitle = $(".filter-title-bar>.filter-title").eq(0).children("span").eq(0);
+        if (startDate) {
+            var text = startDate.substr(5) + "/" + endDate.substr(5);
+            $filterDateTitle.html(text);
+        } else {
+            $filterDateTitle.html("入住日期");
+        }
+    }
+
+
+    /*
+    更新房源列表信息
+    action表示从后端请求的数据在前端的展示方式
+    默认采用追加方式
+    action=renew代表页面数据清空重新展示
+     */
+    function updateHouseData(action) {
+        var areaId = $(".filter-area>li.active").attr('area-id')
+        if (areaId == undefined) areaId = "";
+        var startDate = $("#start-date").val();
+        var endDate = $("#end-date").val();
+        var sortKey = $(".filter-sort>li.active").attr("sort-key")
+        var params = {
+            aid: areaId,
+            sd: startDate,
+            ed: endDate,
+            sk: sortKey,
+            p: next_page
+        };
+
+        $.get("/api/v1.0/houses", params, function (res) {
+            console.log(res)
+            house_data_querying = false;//发送完了
+            if (res.errno == '0') {
+                if (res.data.total_page == 0) {
+                    $(".house-list").html('暂时没有符合您查询的房屋信息')
+                } else {
+                    total_page = res.data.total_page;
+                    if (action == "renew") {
+                        cur_page = 1;
+                        $(".house-list").html(template("item-houseInfo", {data: res.data.houses}))
+                    }else{
+                        cur_page=next_page;
+                        $(".house-list").append(template("item-houseInfo", {data: res.data.houses}))
+                    }
+                }
+            }
+
+        })
+    }
+
+
+    $(document).ready(function () {
+        var queryData = decodeQuery();
+        var startDate = queryData["sd"];
+        var endDate = queryData["ed"];
+        $("#start-date").val(startDate);
+        $("#end-date").val(endDate);
+        updateFilterDateDisplay();
+        var areaName = queryData["aname"];
+        if (!areaName) areaName = "位置区域";
+        $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html(areaName);
+
+
+        //获取筛选条件中的城市区域信息
+        $.get("/api/v1.0/areas", function (res) {
+            console.log(res)
+            if (res.errno == '0') {
+                //用户从首页跳转到这个搜索页面时可能选择了城区，所以尝试从url的查询字符串参数中提取用户选择的城区
+                var areaId = queryData["aid"]
+                if (areaId) {
+                    //使用模板引擎
+                    var html = template("item-area", {areas: res.data, areaId: areaId})
+                    $(".filter-area").html(html)
+                } else {
+                    var html = template("item-area", {areas: res.data})
+                    $(".filter-area").html(html)
+                }
+
+
+                //在页面添加好城区选项信息后，更新展示房屋列表信息
+                updateHouseData("renew")
+                //为窗口的滚动添加事件函数
+                /*
+                scrollTop 滚出去的高度
+                scrollHeight 所有可以滚动的高度
+                 */
+                var windowHeight=$(window).height()
+                //为窗口的滚动添加事件函数
+                window.onscroll=function () {
+                    var b = document.documentElement.scrollTop==0? document.body.scrollTop : document.documentElement.scrollTop;
+                    var c = document.documentElement.scrollTop==0? document.body.scrollHeight : document.documentElement.scrollHeight;
+                    if (c-b<windowHeight+50){
+                        //如果没有正在向后端发送查询房屋列表信息的请求
+                        if (!house_data_querying){
+                            //将正在向后端查询房屋列表信息的标志设为真
+                            house_data_querying=true
+                            if (cur_page<total_page){
+                                //将要查询的页数设置为当前页数+1
+                                next_page=cur_page+1;
+                                //向后端发送请求，查询下一页房屋数据
+                                updateHouseData();
+                            } else{
+                                house_data_querying=false;
+                                $(".tishi").show()
+                            }
+                        }
+                    }
+                }
+
+            }
+        })
+
+
+        $(".input-daterange").datepicker({
+            format: "yyyy-mm-dd",
+            startDate: "today",
+            language: "zh-CN",
+            autoclose: true
+        });
+        var $filterItem = $(".filter-item-bar>.filter-item");
+        $(".filter-title-bar").on("click", ".filter-title", function (e) {
+            var index = $(this).index();
+            if (!$filterItem.eq(index).hasClass("active")) {
+                $(this).children("span").children("i").removeClass("fa-angle-down").addClass("fa-angle-up");
+                $(this).siblings(".filter-title").children("span").children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+                $filterItem.eq(index).addClass("active").siblings(".filter-item").removeClass("active");
+                $(".display-mask").show();
+            } else {
+                $(this).children("span").children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+                $filterItem.eq(index).removeClass('active');
+                $(".display-mask").hide();
+                updateFilterDateDisplay();
+            }
+        });
+
+
+        //选择区域
+        $(".display-mask").on("click", function (e) {
+            $(this).hide();
+            $filterItem.removeClass('active');
+            updateFilterDateDisplay();
+
+            /*
+            重新选择以后全部更新为原始的1
+             */
+            cur_page = 1;
+            next_page = 1;
+            total_page = 1;
+            updateHouseData("renew");
+
+        });
+
+
+        $(".filter-item-bar>.filter-area").on("click", "li", function (e) {
+            if (!$(this).hasClass("active")) {
+                $(this).addClass("active");
+                $(this).siblings("li").removeClass("active");
+                $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html($(this).html());
+            } else {
+                $(this).removeClass("active");
+                $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html("位置区域");
+            }
+        });
+
+
+        //点击价格高低
+        $(".filter-item-bar>.filter-sort").on("click", "li", function (e) {
+
+            if (!$(this).hasClass("active")) {
+                $(this).addClass("active");
+                $(this).siblings("li").removeClass("active");
+                $(".filter-title-bar>.filter-title").eq(2).children("span").eq(0).html($(this).html());
+            }
+        })
+    })
+</script>

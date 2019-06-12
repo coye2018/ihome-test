@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>爱家-个人信息</title>
+    <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/reset.css" rel="stylesheet">
+    <link href="/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="/static/css/ihome/main.css" rel="stylesheet">
+    <link href="/static/css/ihome/profile.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="nav-bar">
+                <h3 class="page-title">个人信息</h3>
+                <a class="nav-btn fl" href="/my.html"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
+            </div>
+        </div>
+        <div class="menus-con">
+            <ul class="menus-list">
+                <li>
+                    <div class="menu-title">
+                        <h3>头像</h3>
+                    </div>
+                    <div class="menu-content">
+                        <img id="user-avatar" src="">
+                        <div class="menu-text">
+<!--                           <form id="form-avatar" enctype="multipart/form-data">-->
+                                选择头像：<input type="file" accept="image/*" name="avatar" id="imgUpdate">
+                                <input type="button" id="scBtn" class="btn btn-success" value="上传">
+<!--                             </form>-->
+                        </div> 
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-title">
+                        <h3>用户名</h3>
+                        <div id="showName"></div>
+                    </div>
+                    <div class="menu-content">
+<!--                          <form id="form-name" action="/api/profile/name" method="post">-->
+                            <input type="text" name="name" id="user-name">
+                            <input type="button" id="user-save-btn" class="btn btn-success" value="保存">
+    <!--                      </form>-->
+                        <div class="error-msg"><i class="fa fa-exclamation-circle"></i>用户名已存在，请重新设置</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="popup_con">
+            <div class="popup">
+                <p>保存成功！</p>
+            </div>
+            
+            <div class="mask"></div>
+        </div>
+        <div class="footer">
+            <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+        </div> 
+    </div>
+    
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/jquery.form.min.js"></script>
+    <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+    <!--<script src="/static/js/ihome/profile.js"></script>-->
+</body>
+</html>
+
+<script>
+function showSuccessMsg() {
+    $('.popup_con').fadeIn('fast', function() {
+        setTimeout(function(){
+            $('.popup_con').fadeOut('fast',function(){});
+        },1000)
+    });
+}
+
+function getCookie(name) {
+    var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+    return r ? r[1] : undefined;
+}
+
+
+
+
+    // $("form-avatar").submit(function (e) {
+    //     console.log(123);
+    // //    阻止表单的默认行为
+    //     e.preventDefault();
+    //     //利用jquery.form.min.js提供的ajax的submit对表单进行异步提交
+    //     $(this).ajaxSubmit({
+    //         url:'/api/v1.0/users/avatar',
+    //         type:'post',
+    //         dataType:'json',
+    //         headers:{
+    //             "X-CSRFToken":getCookie("csrf_token")
+    //         },
+    //         success:function (resp) {
+    //             console.log(resp)
+    //             if (resp.errno=="0"){
+    //             //    上传成功
+    //             var avatarUrl=resp.data.avatar_url;
+    //             $("#user-avatar").attr("src",avatarUrl);
+    //             }else{
+    //                 alert(resp.errmsg);
+    //             }
+    //         }
+    //
+    //     });
+    //
+    // })
+
+    //刷新的时候获取图片
+    $.ajax({
+        url:'/api/v1.0/users/avatarJc',
+        type: "POST",
+        headers:{
+                "X-CSRFToken":getCookie("csrf_token")
+            },
+        success:function (e) {
+            console.log(e)
+            if (e.errno=='0'){
+                $("#user-avatar").attr("src",e.data.avatar_url);
+                $("#showName").text(e.data.name)
+
+            }
+        }
+    })
+
+    //上传按钮
+    $("#scBtn").click(function () {
+        var imgFile=document.getElementById("imgUpdate").files[0]
+        console.log(123);
+        console.log(imgFile);
+
+        var formData = new FormData();
+        formData.append('avatar', imgFile);  //添加图片信息的参数
+        $.ajax({
+            url:"/api/v1.0/users/avatar",
+            type:"POST",
+            dataType:'json',
+            headers:{
+                "X-CSRFToken":getCookie("csrf_token")
+            },
+            contentType:false,//必须false才会自动加上正确的Content-Type
+            processData:false,//必须false才会避开jQuery对 formdata 的默认处理,XMLHttpRequest会对 formdata 进行正确的处理
+            data:formData,
+            success:function (e) {
+                console.log(e)
+                if (e.errno=='0'){
+                    $("#user-avatar").attr("src",e.data.avatar_url);
+
+                }else{
+                    alert(e.errmsg);
+                }
+            }
+        })
+
+    })
+
+
+    //保存用户名按钮
+    $("#user-save-btn").click(function () {
+        if ($("#user-name").val()) {
+            console.log($("#user-name").val())
+            var data={"name":$("#user-name").val()};
+            data=JSON.stringify(data);
+            $.ajax({
+                url:'/api/v1.0/saveName',
+                type:'post',
+                dataType: 'json',
+                 headers:{
+                "X-CSRFToken":getCookie("csrf_token")
+            },
+                 contentType: "application/json;charset=utf-8",
+                //必须false才会自动加上正确的Content-Type
+                //这里转换成json字符串
+                data:data,
+                success:function (res) {
+                    console.log(res)
+                    if (res.errno=='0'){
+                        alert('保存成功');
+                        $("#showName").html($("#user-name").val())
+                        $("#user-name").val('')
+
+                    }else{
+                        $("#showName").html('')
+                        alert('保存失败');
+                    }
+                }
+            })
+        }else{
+            alert('请输入要更改的用户名')
+        }
+    })
+
+
+
+
+
+
+</script>
